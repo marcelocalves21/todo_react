@@ -15,7 +15,7 @@ const List = () => {
 			<button
 				className="btn btn-success"
 				onClick={() => {
-					setList([...list, todo]);
+					setList([todo, ...list]);
 					setTodo("");
 				}}>
 				add
